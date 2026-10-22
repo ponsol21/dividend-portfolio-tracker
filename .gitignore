@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+build/
+# personal financial data and exports
+inputs/
+*.csv
+# contains API keys in plain text — rotate the keys, then delete this file
+Appscriptscode.md
+# your amounts: kept on this Mac only
+Audit_Report.md
+Portfolio_Tracker_v2.xlsx
+*.xlsx
+.DS_Store
+*.tmp
+# tests and test data that use your actual holdings: kept on this Mac only
+tools/test_private.py
+apps_script/tests/run_private_tests.js
+apps_script/tests/fixtures/
